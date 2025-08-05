@@ -471,22 +471,46 @@ p {
 
 .flexcontact {
     display: flex;
-
+    align-items: center;
 }
 
 .form-info {
     width: 50%;
 }
 
+.form-info h2 {
+    font-size: 55px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--clr-main);
+}
+
+.form-info hr {
+    margin-bottom: 50px;
+    color: var(--clr-main);
+}
+
+.form-info h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: var(--clr-main);
+}
+
+.form-info p {
+    font-size: 24px;
+}
+
+
 .form-info img {
-    width: 200px;
+    width: 250px;
     padding-bottom: 25px;
 }
 
 .form-colum {
     display: flex;
     justify-content: space-between;
-    padding: 100px 50px;
+    padding: 25px 25px;
     margin: 50px 50px;
 }
 
@@ -506,6 +530,17 @@ form {
 
 .formulario  {
     color: var(--clr-white);
+}
+
+.formulario h2  {
+    font-size: 55px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.formulario p  {
+    font-size: 24px;
+    margin-bottom: 15px;
 }
 
 form label {
